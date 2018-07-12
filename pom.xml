@@ -1,29 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-
-	<groupId>edu.ncrn.cornell</groupId>
-	<artifactId>ced2ar3</artifactId>
-	<version>${ced2ar.version}</version>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>edu.ncrn.cornell</groupId>
+    <artifactId>ced2ar3</artifactId>
+    <version>${ced2ar.version}</version>
+    
     <modules>
         <module>rdb</module>
         <module>rdb-tests</module>
     </modules>
     <packaging>pom</packaging>
+    
+    <name>CED2AR 3</name>
+    <description>
+      Comprehensive Extensible Data Documentation and
+      Access Repository (AAR) was designed to improve the documentation and
+      discoverability of both public and restricted data. Version 3 is a
+      modular implementaiton of CED2AR.
+    </description>
+    
+    <licenses>
+      <license>
+	<name>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</name>
+	<url>https://raw.githubusercontent.com/ncrncornell/ced2ar-rdb/master/LICENSE</url>
+      </license>
+    </licenses>
 
-	<name>CED2AR 3</name>
-	<description></description>
+    <developers>
+      <developer>
+	<name>Brandon Barker</name>
+	<email>brandon.barker@cornell.edu</email>
+	<organization>Cornell University</organization>
+	<organizationUrl>https://www.cac.cornell.edu/barker/</organizationUrl>
+      </developer>
+      <developer>
+	<name>Lars Vilhuber</name>
+	<email>lars.vilhuber@cornell.edu</email>
+	<organization>Cornell University</organization>
+	<organizationUrl>https://www.ilr.cornell.edu/people/lars-vilhuber</organizationUrl>
+      </developer>
+      <developer>
+	<name>Charles C Simmer</name>
+	<email>ccs237@cornell.edu</email>
+	<organization>Cornell University</organization>
+	<organizationUrl>https://github.com/CSimmer</organizationUrl>
+      </developer>
+    </developers>
 
-	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.4.0.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
+    <scm>
+      <connection>scm:git:git://github.com:ncrncornell/ced2ar-rdb.git</connection>
+      <developerConnection>scm:git:ssh://github.com:ncrncornell/ced2ar-rdb.git</developerConnection>
+      <url>https://github.com/ncrncornell/ced2ar-rdb</url>
+    </scm>
 
-	<properties>
-        <ced2ar.version>3.0.0-RC1-SNAPSHOT</ced2ar.version>
+    <parent>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-parent</artifactId>
+      <version>1.4.0.RELEASE</version>
+      <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <properties>
+        <ced2ar.version>0.0.0</ced2ar.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
         <junit.gen5.version>5.0.0-ALPHA</junit.gen5.version>
