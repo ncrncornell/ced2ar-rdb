@@ -1,7 +1,7 @@
-package edu.ncrn.cornell.model.dao;
+package edu.cornell.ncrn.ced2ar.model.dao;
 
 
-import edu.ncrn.cornell.model.Field;
+import edu.cornell.ncrn.ced2ar.model.Field;
 import javax.transaction.Transactional;
 
 @Transactional

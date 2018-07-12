@@ -1,4 +1,4 @@
-package edu.ncrn.cornell.model.dao;
+package edu.cornell.ncrn.ced2ar.model.dao;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.NoRepositoryBean;

@@ -1,9 +1,9 @@
-package edu.ncrn.cornell.model;
+package edu.cornell.ncrn.ced2ar.model;
 
 import java.io.Serializable;
 import javax.persistence.*;
 
-import edu.ncrn.cornell.model.SchemaPK;
+import edu.cornell.ncrn.ced2ar.model.SchemaPK;
 
 import java.util.List;
 

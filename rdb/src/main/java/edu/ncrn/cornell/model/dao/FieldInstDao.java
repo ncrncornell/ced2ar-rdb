@@ -1,4 +1,4 @@
-package edu.ncrn.cornell.model.dao;
+package edu.cornell.ncrn.ced2ar.model.dao;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import edu.ncrn.cornell.model.FieldInst;
+import edu.cornell.ncrn.ced2ar.model.FieldInst;
 
 public interface FieldInstDao extends JpaRepository<FieldInst, Long> {
 	public List<FieldInst> findByRawDocIdAndFieldId(String rawDocId, String fieldId);

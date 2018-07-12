@@ -1,4 +1,4 @@
-package edu.ncrn.cornell.model;
+package edu.cornell.ncrn.ced2ar.model;
 
 import java.io.Serializable;
 import javax.persistence.*;

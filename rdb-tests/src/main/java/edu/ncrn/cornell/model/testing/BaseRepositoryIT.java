@@ -1,4 +1,4 @@
-package edu.ncrn.cornell.model.testing;
+package edu.cornell.ncrn.ced2ar.model.testing;
 
 import com.github.springtestdbunit.DbUnitTestExecutionListener;
 import org.junit.Assert;

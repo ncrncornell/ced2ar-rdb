@@ -1,4 +1,4 @@
-package edu.ncrn.cornell.model;
+package edu.cornell.ncrn.ced2ar.model;
 
 import java.io.Serializable;
 import javax.persistence.*;
@@ -29,7 +29,7 @@ public class RawDoc implements Serializable {
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date lastSync;
 
-	@org.hibernate.annotations.Type(type="edu.ncrn.cornell.model.SQLXMLType")
+	@org.hibernate.annotations.Type(type="edu.cornell.ncrn.ced2ar.model.SQLXMLType")
 	@Column(name="raw_xml")
 	private String rawXml;
 

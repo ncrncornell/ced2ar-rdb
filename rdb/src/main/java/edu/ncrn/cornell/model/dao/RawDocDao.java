@@ -1,6 +1,6 @@
-package edu.ncrn.cornell.model.dao;
+package edu.cornell.ncrn.ced2ar.model.dao;
 
-import edu.ncrn.cornell.model.RawDoc;
+import edu.cornell.ncrn.ced2ar.model.RawDoc;
 
 public interface RawDocDao extends BaseRepository<RawDoc, String> {
 

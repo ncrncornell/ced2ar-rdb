@@ -1,20 +1,20 @@
-package edu.ncrn.cornell.model.testing;
+package edu.cornell.ncrn.ced2ar.model.testing;
 /**
  * @author Brandon Elam Barker
  * @date 8/12/2016
  */
 
 
-import edu.ncrn.cornell.model.dao.FieldDao;
-import edu.ncrn.cornell.model.dao.MappingDao;
-import edu.ncrn.cornell.model.dao.ProfileDao;
-import edu.ncrn.cornell.model.dao.SchemaDao;
-import edu.ncrn.cornell.model.Field;
-import edu.ncrn.cornell.model.Mapping;
-import edu.ncrn.cornell.model.MappingPK;
-import edu.ncrn.cornell.model.Schema;
-import edu.ncrn.cornell.model.SchemaPK;
-import edu.ncrn.cornell.model.testing.DBChecker;
+import edu.cornell.ncrn.ced2ar.model.dao.FieldDao;
+import edu.cornell.ncrn.ced2ar.model.dao.MappingDao;
+import edu.cornell.ncrn.ced2ar.model.dao.ProfileDao;
+import edu.cornell.ncrn.ced2ar.model.dao.SchemaDao;
+import edu.cornell.ncrn.ced2ar.model.Field;
+import edu.cornell.ncrn.ced2ar.model.Mapping;
+import edu.cornell.ncrn.ced2ar.model.MappingPK;
+import edu.cornell.ncrn.ced2ar.model.Schema;
+import edu.cornell.ncrn.ced2ar.model.SchemaPK;
+import edu.cornell.ncrn.ced2ar.model.testing.DBChecker;
 import org.junit.gen5.api.Test;
 //TODO: might need to be import org.junit.Test;
 

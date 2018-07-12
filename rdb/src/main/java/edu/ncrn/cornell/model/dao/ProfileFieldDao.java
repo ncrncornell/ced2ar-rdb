@@ -1,9 +1,9 @@
-package edu.ncrn.cornell.model.dao;
+package edu.cornell.ncrn.ced2ar.model.dao;
 
 import java.util.List;
 
-import edu.ncrn.cornell.model.Profile;
-import edu.ncrn.cornell.model.ProfileField;
+import edu.cornell.ncrn.ced2ar.model.Profile;
+import edu.cornell.ncrn.ced2ar.model.ProfileField;
 
 public interface ProfileFieldDao extends BaseRepository<ProfileField, Integer> {
 	

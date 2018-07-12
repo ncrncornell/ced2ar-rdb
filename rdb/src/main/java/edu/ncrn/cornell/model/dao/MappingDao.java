@@ -1,9 +1,9 @@
-package edu.ncrn.cornell.model.dao;
+package edu.cornell.ncrn.ced2ar.model.dao;
 
 import java.util.List;
 
-import edu.ncrn.cornell.model.Mapping;
-import edu.ncrn.cornell.model.MappingPK;
+import edu.cornell.ncrn.ced2ar.model.Mapping;
+import edu.cornell.ncrn.ced2ar.model.MappingPK;
 
 public interface MappingDao extends BaseRepository<Mapping, MappingPK> {
 	
