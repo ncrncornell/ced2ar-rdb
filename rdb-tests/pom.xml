@@ -5,7 +5,7 @@
     <parent>
         <artifactId>ced2ar3-rdb-parent</artifactId>
         <groupId>edu.cornell.ncrn.ced2ar</groupId>
-        <version>${ced2ar.version}</version>
+        <version>${revision}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
