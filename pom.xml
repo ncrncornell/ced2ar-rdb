@@ -62,7 +62,7 @@
     </parent>
 
     <properties>
-        <revision>0.0.2</revision>
+        <revision>0.0.3</revision>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
         <junit.gen5.version>5.0.0-ALPHA</junit.gen5.version>
