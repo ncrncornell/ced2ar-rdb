@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>ced2ar3-rdb</artifactId>
+    <name>CED2AR 3</name>
 
     <packaging>jar</packaging>
     <dependencies>
