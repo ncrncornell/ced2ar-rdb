@@ -2,7 +2,7 @@
 
 ## Maven Central
 
-[![rdb](https://maven-badges.herokuapp.com/maven-central/edu.cornell.ncrn.ced2ar/ced2ar3-rdb/badge.svg)](https://maven-badges.herokuapp.com/maven-central/edu.cornell.ncrn.ced2ar/ced2ar3-rdb) [![rdb-tests](https://maven-badges.herokuapp.com/maven-central/edu.cornell.ncrn.ced2ar/ced2ar3-rdb-tests/badge.svg)](https://maven-badges.herokuapp.com/maven-central/edu.cornell.ncrn.ced2ar/ced2ar3-rdb-tests)
+[rdb: ![rdb](https://maven-badges.herokuapp.com/maven-central/edu.cornell.ncrn.ced2ar/ced2ar3-rdb/badge.svg)](https://maven-badges.herokuapp.com/maven-central/edu.cornell.ncrn.ced2ar/ced2ar3-rdb) [rdb-tests: ![rdb-tests](https://maven-badges.herokuapp.com/maven-central/edu.cornell.ncrn.ced2ar/ced2ar3-rdb-tests/badge.svg)](https://maven-badges.herokuapp.com/maven-central/edu.cornell.ncrn.ced2ar/ced2ar3-rdb-tests)
 
 # Building CED2AR
 
